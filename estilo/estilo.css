@@ -1,0 +1,459 @@
+*{
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    background: url(../img/banner.jpg) no-repeat;
+}
+
+button{
+    border: none;
+}
+
+nav{
+    padding: 25px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    color: #CDCECF;
+}
+
+.caja{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentacion{
+    flex-basis: 600px;
+}
+
+.consulta{
+    flex-basis: 400px;
+    margin:100px 0px;
+}
+
+.presentacion h1{
+    color: #585A5C;
+    font-size: 70px;
+    padding: 5px;
+    
+}
+
+.presentacion p{
+    color: #909293;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.llamar{
+    display: flex;
+}
+
+.call{
+    padding: 8px;
+}
+
+.llamar button{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 15px;
+    padding: 0px 30px;
+    background: #037DF1;
+    border-radius: 15px;
+}
+
+.call .numero{
+    color: #037DF1;
+}
+
+.consulta{
+    background: #fff;
+    margin: 60px 0;
+}
+
+.consulta h1{
+    font-size: 30px;
+    padding: 15px;
+    color: #000;
+    text-align: center;
+}
+
+.datos{
+    padding: 30px;
+}
+
+.datos input{
+    width: 100%;
+    padding: 15px;
+    margin:  25px 0;
+    border-radius: 5px;
+    border: none;
+    background: #F5F5F5;
+}
+
+.datos button{
+    width: 100%;
+    margin:  25px 0 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Titlo2{
+    width: 70%;
+    margin: auto;
+}
+
+.Titlo2 h2{
+    font-size: 40px;
+    color: #4A5158;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Titlo2 p{
+    font-size: 18px;
+    color: #6D6F75;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Bespoke{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.Bespoke1{
+    background: url(../img/img1.jpg);
+    flex-basis: 390px;
+    height: 452px;
+}
+
+.Bespoke2{
+    background: url(../img/img2.jpg);
+    flex-basis: 390px;
+    height: 452px;
+}
+
+.Bespoke3{
+    background: url(../img/img3.jpg);
+    flex-basis: 390px;
+    height: 452px;
+}
+
+.Bespoke button{
+    margin: 250px 0px 0px 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Bespoke h2{
+    font-size: 30px;
+    color: #E8E8E8;
+    padding: 10px;
+}
+
+.Bespoke p{
+    color: #9B9998;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Marketing{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: auto;
+    align-items: flex-end;
+}
+
+.Best{
+    margin: 15px;
+    width: 50%;
+}
+
+.Overview{
+    flex-basis: 400px;
+    margin-bottom: 200px;
+}
+
+.Marketing .Best img{
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    object-fit: contain;
+}
+
+.Marketing h1{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #555A60;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.Marketing p{
+    color: #9B9998;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Marketing button{ 
+    padding: 15px;
+    border-radius: 10px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Monioring{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Building{
+    width: 50%;
+}
+
+.Building h1{
+    font-size: 30px;
+    color: #555A60;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.Building p{
+    color: #9B9998;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Building button{
+    padding: 15px;
+    border-radius: 10px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Monioring img{
+    margin: 50px 0;
+}
+
+.Discover{
+    width: 70%;
+    margin: auto;
+}
+
+.Discover h2{
+    font-size: 40px;
+    color: #4A5158;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Discover p{
+    font-size: 18px;
+    color: #6D6F75;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Online{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Online h1{
+    color: #555A60;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.Online h2{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #555A60;
+    padding: 10px;
+}
+
+.Online p{
+    position: relative;
+    left: 60px;
+    width: 640px;
+    color: #9B9998;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Online button{
+    padding: 15px;
+    border-radius: 10px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Online img{
+    margin: 50px 0;
+}
+
+.More{
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px 300px;
+    background: #037EF3;
+    color: #fff;
+}
+
+.Business{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.More h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.Business h1{
+    font-size: 25px;
+}
+
+.Business i{
+    font-size: 50px;
+    margin: 30px;
+}
+
+.Business p{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    width: 255px;
+}
+
+.Clients{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.Clients h1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #555A60;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.Clients p{
+    color: #9B9998;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Clients h2{
+    padding: 10px;
+    font-size: 20px;
+    color: #555A60;
+}
+
+.Clients h3{
+    font-size: 20px;
+    color: #6D6F75;
+    margin-bottom: 50px;
+}
+
+.Custom{
+    background: url(../img/img8.jpg) no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.Custom .Desi{
+    width: 100%;
+    text-align: center;
+}
+
+.Custom .Desi h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Custom .Desi button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #037DF1;
+    color: #fff;
+}
+
+.Kon{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Kon h1{
+    color: #495057;
+    font-size: 25px;
+}
+
+.Kon p{
+    color: #828489;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.sulx , .our , .add , .tou{
+    flex-basis: 300px;
+    padding: 30px;
+}
+
+.Kon i{
+    font-size: 15px;
+    padding: 12px;
+}
+
+
+
+
+
+
+
